@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.main{
+width:100%;
+background: linear-gradient(to top , rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%),url(online2.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+.signup{
+    width: 195px;  
+    height: 320px;
+       overflow:hidden;  
+       margin:auto;  
+       margin: 85 0 0 485px;  
+       margin-right: 498px;
+       padding: 88px;  
+       background:rgba(5, 0, 0, 0.377);
+       padding-bottom: 216px;
+      /* float:left;*/
+    
+       
+       
+       border-radius: 26px ;     
+}
+
+.logo{
+   width: 100px;
+       }
+   
+   .logo img{
+   float: left;
+   margin-left:30px;
+   margin-top:30px ;
+   width: 110px;
+   height: 110px;
+   }
+
+h1
+{
+text-align:center;  
+color: rgb(255, 123, 0); 
+   padding: 20px;      
+}
+
+label
+{  
+   color: rgb(255, 255, 255);  
+   font-size: 15px;  
+   
+}  
+
+#FNAME
+{   
+   width: 120  px;  
+   height: 25px;  
+   border:auto;  
+   border-radius: 15px;  
+   padding-left: 15px; 
+}
+
+#LNAME
+{  
+   width: 120 px;  
+   height: 25px;  
+   border: auto;  
+   border-radius: 15px;  
+   padding-left: 15px;  
+     
+}  
+
+#EMAIL
+{  
+   width: 120 px;  
+   height: 25px;  
+   border: auto;  
+   border-radius: 15px;  
+   padding-left: 15px;  
+     
+}  
+
+#PASS
+{  
+   width: 120 px;  
+   height: 25px;  
+   border: auto;  
+   border-radius: 15px;  
+   padding-left: 15px;  
+     
+}  
+
+#MOB
+{  
+   width: 120 px;  
+   height: 25px;  
+   border: auto;  
+   border-radius: 15px;  
+   padding-left: 15px;  
+     
+}  
+
+#SIGN
+{  
+   width: 125px;  
+   height: 30px;  
+   border: auto;  
+   border-radius: 15px;  
+   padding-left: 7px;  
+   color: rgb(255, 255, 255);  
+   background-color: orangered;
+ 
+ 
+}  
+

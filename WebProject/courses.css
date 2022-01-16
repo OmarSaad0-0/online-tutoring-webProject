@@ -1,0 +1,42 @@
+
+.main .content .table{
+
+
+padding-left: 10%;
+padding-top: 10%;
+width: 50%;
+text-align: center;
+
+
+}
+tr:hover{
+    background-color: rgb(226, 180, 126);
+}
+th, td {
+    border: 1px solid rgb(85, 82, 82);
+    
+    padding-bottom: 3px;
+    border-collapse: collapse;
+  }
+  .button {
+    background-color: #86ce88; /* Green */
+    border: 2px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+  }
+  .button1 {
+    background-color: #d84a4a; /* Green */
+    border: 2px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
