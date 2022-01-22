@@ -109,6 +109,7 @@ function emptyLoginInput($userEmail,$userPassword)
     }
     return $Bug;
 }
+
 function loginUser($conn,$UserEmail,$userPassword)
 {
 
@@ -133,14 +134,14 @@ function loginUser($conn,$UserEmail,$userPassword)
     session_start();
     $_SESSION["userId"] = $userExist["userId"];
     $_SESSION["userEm"] =$userExist["userEm"];
-    $_SESSION["userKind"] =$userExist["userKind"];
+    $_SESSION["userKind"] =$userExist["kind"];
     $_SESSION["userFn"] =$userExist["userFn"];
 
     if(isset($_SESSION['userKind']))
     {
-        if($_SESSION['userKind']=="Admin")
+        if($_SESSION['userKind']=="admin")
         {
-          header("location: ../admin.html");
+          header("location: ../Admin/admin.html");
         }else
         {
           header("location: ../index.php");

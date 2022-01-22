@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device, initial scale=1.0">
+        <title>Admin Dashboard</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>        <link rel="stylesheet" type="text/css" href="admin1.css">
+    </head>
+    <body>
+        <div class="container">
+            
+         <div class="navigation">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+             <ul>
+                 <li><li><a href="admin.html">
+                    <span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                    <span class="title"><h2>Proroz</h2></span>
+                </a></li>
+                <li><a href="Admin_Courses.php">
+                    <span class="icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                    <span class="title">Courses</span>
+                </a></li>
+                <li><a href="C:\xampp\htdocs\WebProject\WebProject\messages">
+                    <span class="icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
+                    <span class="title">Messages</span>
+                </a></li>
+                <li><a href="Admins.php">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Admins</span>
+                </a></li>
+                <li><a href="Admin_Logout.int.php">
+                    <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Sign Out</span>
+                </a></li>
+                <li><a href="Orders.php">
+                    <span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                    
+                    </span>
+                    <span class="title">Orders</span>
+                </a></li>
+                <li><a href="Admin_Request.int.php">
+                    <span class="icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Requests</span>
+                </a></li>
+             </ul>
+             
+         </div>
+         <div class="main">
+            
+             <div class="topbar">
+                 <div class="toggle" onclick="toggleMenu();"></div>
+                 
+             </div>
+            <div class="content">
+                    <h1>hereee</h1>
+                </div>
+         </div>
+        </div>
+        
+        
+<script>
+    function toggleMenu(){
+        let toggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+        toggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+        main.classList.toggle('active');
+
+    }
+</script>
+
+    </body>
+</html>
